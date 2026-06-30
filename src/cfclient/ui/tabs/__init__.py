@@ -44,6 +44,7 @@ from .LogClientTab import LogClientTab
 from .lighthouse_tab import LighthouseTab
 from .TuningTab import TuningTab
 from .ColorLEDTab import ColorLEDTab
+from .FlightRLInspectorTab import FlightRLInspectorTab
 
 __author__ = 'Bitcraze AB'
 __all__ = []
@@ -52,6 +53,7 @@ available = [
     ConsoleTab,
     # ExampleTab,
     FlightTab,
+    FlightRLInspectorTab,
     # GpsTab,
     LEDRingTab,
     ColorLEDTab,
